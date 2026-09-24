@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BD Fashions &amp; Fibers | Garments and Recycled Cotton Fiber from Bangladesh</title>
+<meta name="description" content="BD Fashions & Fibers is a garments and recycled cotton fiber exporter and buying agent in Dhaka, Bangladesh. T-shirts, polo shirts, shirts, jeans, jackets, fabric and recycled cotton fiber.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F7F8FA;
+  --surface: #FFFFFF;
+  --tint: #E8EEF7;
+  --ink: #16243D;
+  --muted: #4B5A73;
+  --line: #D3DAE6;
+  --link: #2A4A82;
+  --stitch: #E0A526;
+  --stitch-deep: #B57F06;
+  --hero: #16243D;
+  --hero-ink: #F2F5FA;
+  --hero-muted: #B7C3D8;
+  --sage-bg: #E3ECE5;
+  --sage-ink: #1F3A2A;
+  --sage-line: #B5C9BB;
+  --display: 'Bricolage Grotesque', 'Trebuchet MS', system-ui, sans-serif;
+  --body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1727;
+    --surface: #152036;
+    --tint: #1C2B47;
+    --ink: #EDF1F7;
+    --muted: #A8B4C8;
+    --line: #2A3A57;
+    --link: #9DBDF0;
+    --stitch-deep: #E0A526;
+    --hero: #0A1220;
+    --sage-bg: #14261D;
+    --sage-ink: #E1EEE5;
+    --sage-line: #2E4A3A;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1727;
+  --surface: #152036;
+  --tint: #1C2B47;
+  --ink: #EDF1F7;
+  --muted: #A8B4C8;
+  --line: #2A3A57;
+  --link: #9DBDF0;
+  --stitch-deep: #E0A526;
+  --hero: #0A1220;
+  --sage-bg: #14261D;
+  --sage-ink: #E1EEE5;
+  --sage-line: #2E4A3A;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+h1, h2, h3 { font-family: var(--display); margin: 0; line-height: 1.1; }
+p { margin: 0 0 1em; }
+a { color: var(--link); }
+img, svg { max-width: 100%; }
+:focus-visible { outline: 3px solid var(--stitch); outline-offset: 3px; }
+.wrap { width: min(1120px, 100% - 2.5rem); margin-inline: auto; }
+.skip { position: absolute; left: -999px; top: 0; background: var(--stitch); color: #16243D; padding: .6rem 1rem; font-family: var(--display); font-weight: 700; z-index: 10; }
+.skip:focus { left: 0; }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: .85rem 1.4rem;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color .15s, color .15s, border-color .15s;
+}
+.btn-primary { background: var(--stitch); color: #16243D; }
+.btn-primary:hover { background: #F0B93C; }
+.btn-ghost-light { color: var(--hero-ink); border-color: rgba(242,245,250,.55); background: transparent; }
+.btn-ghost-light:hover { border-color: var(--hero-ink); background: rgba(242,245,250,.08); }
+.btn-outline { color: var(--ink); border-color: var(--ink); background: transparent; }
+.btn-outline:hover { background: var(--ink); color: var(--bg); }
+
+/* Hero (denim twill) */
+.hero {
+  background-color: var(--hero);
+  background-image:
+    repeating-linear-gradient(115deg, rgba(255,255,255,.04) 0 2px, transparent 2px 7px),
+    linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,.25));
+  color: var(--hero-ink);
+  overflow: hidden;
+}
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding-block: 1.25rem; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: .7rem; color: var(--hero-ink); text-decoration: none; font-family: var(--display); font-weight: 700; font-size: 1.2rem; letter-spacing: -.01em; }
+.logo-tile { display: block; flex: none; height: 56px; width: auto; aspect-ratio: 201 / 232; background: #FFFFFF; border-radius: 8px; padding: 3px; object-fit: contain; }
+.foot-logo { height: 72px; margin-bottom: 1rem; }
+.nav { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+.nav a:not(.btn) { color: var(--hero-muted); text-decoration: none; font-family: var(--display); font-weight: 500; font-size: .98rem; }
+.nav a:not(.btn):hover { color: var(--hero-ink); text-decoration: underline; text-decoration-color: var(--stitch); text-underline-offset: 6px; }
+.nav .btn { padding: .6rem 1.05rem; font-size: .95rem; }
+
+.hero-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 3rem; align-items: center; padding-block: 3.5rem 5.5rem; }
+.hero h1 { font-size: clamp(2.7rem, 6.2vw, 4.9rem); font-weight: 800; letter-spacing: -.025em; line-height: 1; max-width: 12ch; }
+.hero-lead { font-size: 1.2rem; color: var(--hero-muted); max-width: 34rem; margin: 1.6rem 0 2rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .9rem; }
+
+/* Hang tag */
+.tag-wrap { position: relative; padding-top: 70px; }
+.tag-string { position: absolute; top: 0; left: 50%; width: 150px; height: 90px; transform: translateX(-62%); pointer-events: none; }
+.tag {
+  position: relative;
+  background: #1F4CB3;
+  color: #FFFFFF;
+  border-radius: 8px 8px 16px 16px;
+  padding: 44px 22px 22px;
+  max-width: 320px;
+  margin-inline: auto;
+  transform: rotate(3.5deg);
+  box-shadow: 0 24px 48px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.1);
+}
+.tag::before {
+  content: "";
+  position: absolute; top: 16px; left: 50%;
+  width: 18px; height: 18px; margin-left: -9px;
+  border-radius: 50%;
+  background: var(--hero);
+  box-shadow: inset 0 0 0 3px #8FA9EA;
+}
+.tag-inner { border: 2px dashed #E0A526; border-radius: 5px; padding: 1.25rem 1.1rem 1rem; }
+.tag-name { font-family: var(--display); font-weight: 800; font-size: 1.35rem; line-height: 1.1; letter-spacing: -.01em; margin-bottom: 1rem; }
+.tag-line { font-family: var(--display); font-weight: 700; font-size: 1.15rem; padding: .7rem 0; border-top: 2px dashed rgba(224,165,38,.85); }
+.tag-place { font-size: .92rem; color: #C9D7F5; border-top: 2px dashed rgba(224,165,38,.85); padding-top: .8rem; margin: 0; }
+
+/* Sections */
+section { padding-block: clamp(3.5rem, 8vw, 6rem); }
+.section-head { max-width: 40rem; margin-bottom: 2.5rem; }
+.section-head h2 { font-size: clamp(1.9rem, 3.6vw, 2.75rem); font-weight: 700; letter-spacing: -.02em; }
+.section-head p { color: var(--muted); margin: 1rem 0 0; }
+
+/* Pillars */
+.pillars { padding-block: clamp(3rem, 6vw, 4.5rem); background: var(--surface); border-bottom: 1px solid var(--line); }
+.pillar-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
+.pillar { border-left: 3px dashed var(--stitch); padding-left: 1.25rem; }
+.pillar h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: .5rem; }
+.pillar p { color: var(--muted); margin: 0; }
+
+/* Products */
+.products { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.product { padding: 1.75rem 1.5rem 1.6rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--surface); display: flex; flex-direction: column; }
+.product h3 { font-size: 1.25rem; font-weight: 700; margin: 1rem 0 .4rem; }
+.product p { color: var(--muted); font-size: 1rem; line-height: 1.55; margin: 0 0 1rem; flex: 1; }
+.product a { font-family: var(--display); font-weight: 600; font-size: .95rem; }
+.product-cta { background: var(--tint); justify-content: center; }
+.product-cta h3 { margin-top: 0; }
+.art { width: 96px; height: 96px; fill: var(--tint); stroke: var(--ink); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.art .st { fill: none; stroke: var(--stitch); stroke-width: 2.2; stroke-dasharray: 4 4; }
+.art .nf { fill: none; }
+.art .btn-dot { fill: var(--ink); stroke: none; }
+.art .zp { fill: none; stroke: var(--ink); stroke-width: 3; stroke-dasharray: 1.6 2.2; }
+.art .wf { fill: none; stroke: var(--ink); stroke-width: 1.6; }
+.art .am { fill: none; stroke: var(--stitch); stroke-width: 3; stroke-dasharray: none; }
+
+/* Recycled fiber */
+.fiber { background: var(--sage-bg); color: var(--sage-ink); }
+.fiber-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 3.5rem; align-items: start; }
+.fiber h2 { font-size: clamp(1.9rem, 3.6vw, 2.75rem); font-weight: 700; letter-spacing: -.02em; margin-bottom: 1.2rem; max-width: 16ch; }
+.fiber-copy p { max-width: 34rem; }
+.fiber h3 { font-size: 1.15rem; margin: 2rem 0 .75rem; }
+.uses { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: .5rem 1.5rem; max-width: 34rem; }
+.uses li { border-top: 2px dashed var(--sage-line); padding-top: .5rem; }
+.fiber-panel { background: var(--surface); color: var(--ink); border: 2px dashed var(--stitch-deep); border-radius: 10px; padding: 1.75rem; }
+.fiber-panel .art { width: 120px; height: 120px; margin-bottom: .5rem; }
+.fiber-panel h3 { font-size: 1.25rem; margin: 0 0 .5rem; }
+.fiber-panel ul { margin: 0 0 1.5rem; padding-left: 1.2rem; color: var(--muted); }
+.fiber-panel li { margin-bottom: .3rem; }
+
+/* Services */
+.services-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 3.5rem; }
+.service-list { margin: 0; }
+.service-list div { padding-block: 1.25rem; border-top: 2px dashed var(--line); }
+.service-list div:last-child { border-bottom: 2px dashed var(--line); }
+.service-list dt { font-family: var(--display); font-weight: 700; font-size: 1.2rem; margin-bottom: .25rem; }
+.service-list dd { margin: 0; color: var(--muted); }
+.process-title { font-size: 1.5rem; font-weight: 700; margin: 4rem 0 1.5rem; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+.steps li { border-top: 3px dashed var(--stitch); padding-top: 1rem; }
+.steps b { display: block; font-family: var(--display); font-size: 1.05rem; margin-bottom: .25rem; }
+.steps span { color: var(--muted); font-size: 1rem; line-height: 1.5; display: block; }
+.step-n { font-family: var(--display); font-weight: 800; font-size: 1.6rem; color: var(--stitch-deep); display: block; margin-bottom: .2rem; }
+
+/* About */
+.about { background: var(--surface); border-block: 1px solid var(--line); }
+.about-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 3.5rem; align-items: start; }
+.about h2 { font-size: clamp(1.9rem, 3.6vw, 2.75rem); font-weight: 700; letter-spacing: -.02em; max-width: 14ch; }
+.about-copy p { max-width: 36rem; }
+.signoff { margin-top: 1.75rem; padding-top: 1rem; border-top: 2px dashed var(--line); max-width: 20rem; }
+.signoff b { display: block; font-family: var(--display); font-size: 1.15rem; }
+.signoff span { color: var(--muted); }
+
+/* Contact */
+.contact-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 3.5rem; align-items: start; }
+.contact-list { margin: 0; }
+.contact-list div { padding-block: 1rem; border-top: 2px dashed var(--line); }
+.contact-list div:last-child { border-bottom: 2px dashed var(--line); }
+.contact-list dt { font-family: var(--display); font-weight: 700; font-size: 1rem; color: var(--muted); }
+.contact-list dd { margin: .15rem 0 0; font-size: 1.1rem; overflow-wrap: anywhere; }
+form { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: clamp(1.25rem, 3vw, 2rem); }
+.field { margin-bottom: 1.1rem; }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+label { display: block; font-family: var(--display); font-weight: 600; font-size: .95rem; margin-bottom: .35rem; }
+input, select, textarea {
+  width: 100%;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  padding: .7rem .8rem;
+}
+input:focus, select:focus, textarea:focus { outline: 3px solid var(--stitch); outline-offset: 1px; border-color: var(--ink); }
+textarea { min-height: 8rem; resize: vertical; }
+.form-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.4rem; }
+.status { margin: 1rem 0 0; font-size: .98rem; color: var(--muted); min-height: 1.5em; }
+
+/* Footer */
+footer { background: var(--hero); color: var(--hero-muted); padding-block: 3rem; }
+.foot-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 2rem; }
+footer b { font-family: var(--display); color: var(--hero-ink); font-size: 1.2rem; display: block; margin-bottom: .5rem; }
+footer p { margin: 0 0 .4rem; font-size: 1rem; }
+footer a { color: var(--hero-ink); }
+.foot-note { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 2px dashed rgba(224,165,38,.5); font-size: .95rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .hero-grid { grid-template-columns: 1fr; padding-block: 2.5rem 4rem; }
+  .hero h1 { max-width: 14ch; }
+  .tag-wrap { max-width: 320px; margin-inline: auto; width: 100%; }
+  .products { grid-template-columns: repeat(2, 1fr); }
+  .fiber-grid, .services-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .steps { grid-template-columns: repeat(2, 1fr); }
+  .foot-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .pillar-row { grid-template-columns: 1fr; gap: 1.75rem; }
+  .products { grid-template-columns: 1fr; }
+  .steps { grid-template-columns: 1fr; }
+  .field-row { grid-template-columns: 1fr; gap: 0; }
+  .uses { grid-template-columns: 1fr; }
+  .nav { gap: 1rem; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <a class="brand" href="#top" aria-label="BD Fashions &amp; Fibers home">
+        <img class="logo-tile" src="data:image/jpeg;base64,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" alt="BD Fashions &amp; Fibers logo" width="201" height="232">
+        <span>BD Fashions &amp; Fibers</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#products">Products</a>
+        <a href="#fiber">Recycled fiber</a>
+        <a href="#services">Buying agent</a>
+        <a href="#about">About</a>
+        <a class="btn btn-primary" href="#contact">Contact Us</a>
+      </nav>
+    </div>
+
+    <div class="hero-grid" id="top">
+      <div>
+        <h1>Quality Fashions, Better Tomorrow</h1>
+        <p class="hero-lead">We export garments and recycled cotton fiber from Bangladesh, and act as your buying agent for sourcing here.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Request a quote</a>
+          <a class="btn btn-ghost-light" href="#products">See our products</a>
+        </div>
+      </div>
+
+      <div class="tag-wrap" aria-hidden="true">
+        <svg class="tag-string" viewBox="0 0 150 90" fill="none">
+          <path d="M96 84 C 80 30, 30 40, 14 4" stroke="#E0A526" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M96 84 C 112 40, 130 46, 138 10" stroke="#E0A526" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <div class="tag">
+          <div class="tag-inner">
+            <div class="tag-name">BD Fashions &amp; Fibers</div>
+            <div class="tag-line">Global Quality</div>
+            <div class="tag-line">Trusted Partner</div>
+            <div class="tag-line">Long-Term Growth</div>
+            <p class="tag-place">Dhaka, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="pillars" aria-label="What we stand for">
+    <div class="wrap pillar-row">
+      <div class="pillar">
+        <h2>Global quality</h2>
+        <p>Garments and fiber made to the standards your market expects, checked before they ship.</p>
+      </div>
+      <div class="pillar">
+        <h2>Trusted partner</h2>
+        <p>Clear communication and honest timelines, from the first sample to the final shipment.</p>
+      </div>
+      <div class="pillar">
+        <h2>Long-term growth</h2>
+        <p>We build supply relationships that grow with your business, order after order.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Products we export</h2>
+        <p>Every item is made to your specification: fabric, fit, colour, print, label and packing.</p>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <svg class="art" viewBox="0 0 120 120" role="img" aria-label="T-shirt">
+            <path d="M40 20 L20 32 L8 52 L26 60 L34 50 L34 100 L86 100 L86 50 L94 60 L112 52 L100 32 L80 20 Q60 36 40 20 Z"/>
+            <path class="st" d="M36 92 H84"/>
+            <path class="st" d="M45 23 Q60 37 75 23"/>
+          </svg>
+          <h3>T-shirts</h3>
+          <p>Crew and V-neck styles, plain, printed or embroidered.</p>
+          <a href="#contact" data-interest="T-shirts">Ask about T-shirts</a>
+        </article>
+
+        <article class="product">
+          <svg class="art" viewBox="0 0 120 120" role="img" aria-label="Polo shirt">
+            <path d="M44 14 L24 24 L8 50 L26 60 L34 50 L34 106 L86 106 L86 50 L94 60 L112 50 L96 24 L76 14 Q60 24 44 14 Z"/>
+            <path class="st" d="M38 100 H82"/>
+            <path class="am" d="M11 45 L29 55 M109 45 L91 55"/>
+            <rect x="55" y="28" width="10" height="36" rx="1.5"/>
+            <circle class="btn-dot" cx="60" cy="40" r="1.7"/>
+            <circle class="btn-dot" cx="60" cy="52" r="1.7"/>
+            <path d="M44 12 L60 25 L52 36 L38 24 Z"/>
+            <path d="M76 12 L60 25 L68 36 L82 24 Z"/>
+            <path class="am" d="M45.5 15.5 L40.5 24 M74.5 15.5 L79.5 24"/>
+          </svg>
+          <h3>Polo shirts</h3>
+          <p>Piqué and jersey polos for retail, teamwear and uniforms.</p>
+          <a href="#contact" data-interest="Polo shirts">Ask about polo shirts</a>
+        </article>
+
+        <article class="product">
+          <svg class="art" viewBox="0 0 120 120" role="img" aria-label="Shirt">
+            <path d="M45 14 L28 22 L18 92 L32 96 L36 54 L36 108 L84 108 L84 54 L88 96 L102 92 L92 22 L75 14 Q60 24 45 14 Z"/>
+            <path class="nf" d="M19.1 83.5 L32.8 87.5"/>
+            <path class="nf" d="M100.9 83.5 L87.2 87.5"/>
+            <circle class="btn-dot" cx="26" cy="90" r="1.5"/>
+            <circle class="btn-dot" cx="94" cy="90" r="1.5"/>
+            <path class="st" d="M56 46 V106"/>
+            <path class="st" d="M64 46 V106"/>
+            <circle class="btn-dot" cx="60" cy="86" r="1.8"/>
+            <circle class="btn-dot" cx="60" cy="100" r="1.8"/>
+            <path d="M58 34 L62 34 L66 74 L60 80 L54 74 Z" style="fill:#2F4B7C"/>
+            <path d="M46 12 L60 26 L54 44 L41 26 Z"/>
+            <path d="M74 12 L60 26 L66 44 L79 26 Z"/>
+            <path d="M56 27 L64 27 L62 34 L58 34 Z" style="fill:#2F4B7C"/>
+          </svg>
+          <h3>Shirts</h3>
+          <p>Formal collared shirts in woven cotton and blends.</p>
+          <a href="#contact" data-interest="Shirts">Ask about shirts</a>
+        </article>
+
+        <article class="product">
+          <svg class="art" viewBox="0 0 120 120" role="img" aria-label="Jeans">
+            <path d="M36 12 H84 L91 108 H66 L60 46 L54 108 H29 Z"/>
+            <path class="nf" d="M36 24 H84"/>
+            <path class="nf" d="M38 24 Q40 38 53 32"/>
+            <path class="nf" d="M82 24 Q80 38 67 32"/>
+            <path class="st" d="M60 24 V46"/>
+            <path class="st" d="M31 100 H53"/>
+            <path class="st" d="M67 100 H89"/>
+          </svg>
+          <h3>Jeans</h3>
+          <p>Denim jeans and pants in your wash, fit and trims.</p>
+          <a href="#contact" data-interest="Jeans">Ask about jeans</a>
+        </article>
+
+        <article class="product">
+          <svg class="art" viewBox="0 0 120 120" role="img" aria-label="Jacket">
+            <path d="M38 24 L36 11 L46 3 L60 1.5 L74 3 L84 11 L82 24 Z"/>
+            <path d="M44 14 L20 26 L10 86 L26 90 L32 52 L32 106 L88 106 L88 52 L94 90 L110 86 L100 26 L76 14 Q60 24 44 14 Z"/>
+            <path class="nf" d="M11 80 L26.9 84 M109 80 L93.1 84"/>
+            <path style="fill:var(--line)" d="M46 15 L52 24 L60 26 L68 24 L74 15 L72 7 L60 5 L48 7 Z"/>
+            <path class="nf" d="M54 26 V42 M66 26 V42"/>
+            <path class="zp" d="M60 27 V106"/>
+            <path class="nf" d="M40 76 L42 94 M80 76 L78 94"/>
+            <path class="st" d="M35 100 H85"/>
+          </svg>
+          <h3>Jackets</h3>
+          <p>Hooded and zip jackets, developed from your tech pack.</p>
+          <a href="#contact" data-interest="Jackets">Ask about jackets</a>
+        </article>
+
+        <article class="product">
+          <svg class="art" viewBox="0 0 120 120" role="img" aria-label="Fabric roll">
+            <path d="M36 36 H90 A14 24 0 0 1 90 84 H36"/>
+            <ellipse cx="36" cy="60" rx="14" ry="24"/>
+            <ellipse class="nf" cx="36" cy="60" rx="5" ry="9"/>
+            <path class="st" d="M40 46 H88"/>
+            <path class="st" d="M40 74 H88"/>
+          </svg>
+          <h3>Fabric &amp; more</h3>
+          <p>Knit and woven fabric, and other textile items on request.</p>
+          <a href="#contact" data-interest="Fabric & more">Ask about fabric</a>
+        </article>
+
+        <article class="product">
+          <svg class="art" viewBox="0 0 120 120" role="img" aria-label="Bale of recycled cotton fiber">
+            <rect x="22" y="44" width="76" height="52" rx="6"/>
+            <path d="M26 44 Q30 32 38 38 Q42 26 52 34 Q58 24 66 34 Q74 26 80 36 Q90 32 94 44 Z"/>
+            <path class="st" d="M48 44 V96 M72 44 V96"/>
+            <path class="wf" d="M28 58 q4 -3 8 0 M28 74 q4 -3 8 0 M80 60 q4 -3 8 0 M80 76 q4 -3 8 0"/>
+          </svg>
+          <h3>Recycled cotton fiber</h3>
+          <p>Fiber recovered from cotton waste, for spinning, nonwovens and fill.</p>
+          <a href="#fiber">Read about the fiber</a>
+        </article>
+
+        <article class="product product-cta">
+          <h3>Need something else?</h3>
+          <p>Tell us the product, quantity and destination. We will look into it.</p>
+          <a class="btn btn-primary" href="#contact" style="align-self:flex-start;color:#16243D;text-decoration:none">Send an inquiry</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="fiber" class="fiber">
+    <div class="wrap fiber-grid">
+      <div class="fiber-copy">
+        <h2>Recycled cotton fiber</h2>
+        <p>We export recycled cotton fiber made from cotton textile waste. Reusing cotton keeps fabric out of landfill and gives manufacturers a lower-waste raw material.</p>
+        <p>If you buy fiber for yarn, nonwovens or filling, send us your requirements and we will come back with what we can supply.</p>
+        <h3>Typical uses</h3>
+        <ul class="uses">
+          <li>Yarn spinning</li>
+          <li>Nonwoven fabric</li>
+          <li>Filling and padding</li>
+          <li>Wipes and cleaning cloths</li>
+        </ul>
+      </div>
+
+      <aside class="fiber-panel">
+        <svg class="art" viewBox="0 0 120 120" role="img" aria-label="Bale of recycled cotton fiber">
+            <rect x="22" y="44" width="76" height="52" rx="6"/>
+            <path d="M26 44 Q30 32 38 38 Q42 26 52 34 Q58 24 66 34 Q74 26 80 36 Q90 32 94 44 Z"/>
+            <path class="st" d="M48 44 V96 M72 44 V96"/>
+            <path class="wf" d="M28 58 q4 -3 8 0 M28 74 q4 -3 8 0 M80 60 q4 -3 8 0 M80 76 q4 -3 8 0"/>
+          </svg>
+        <h3>What to include in your inquiry</h3>
+        <ul>
+          <li>Colour or shade you need</li>
+          <li>Quality or grade</li>
+          <li>Quantity, and how often</li>
+          <li>Destination country or port</li>
+        </ul>
+        <a class="btn btn-primary" href="#contact" data-interest="Recycled cotton fiber" style="text-decoration:none;color:#16243D">Ask about fiber</a>
+      </aside>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="services-grid">
+        <div class="section-head" style="margin-bottom:0">
+          <h2>Your buying agent in Bangladesh</h2>
+          <p>Sourcing from Bangladesh takes local knowledge. We handle the legwork so you can focus on your brand and your customers.</p>
+        </div>
+        <dl class="service-list">
+          <div>
+            <dt>Factory sourcing</dt>
+            <dd>We match your product with factories in Bangladesh that suit your style, volume and price.</dd>
+          </div>
+          <div>
+            <dt>Sampling and development</dt>
+            <dd>We take your tech pack through to an approved sample.</dd>
+          </div>
+          <div>
+            <dt>Quality checks</dt>
+            <dd>We inspect goods during production and before shipment.</dd>
+          </div>
+          <div>
+            <dt>Shipping and documents</dt>
+            <dd>We coordinate export paperwork and shipment to your destination.</dd>
+          </div>
+        </dl>
+      </div>
+
+      <h3 class="process-title">How an order works</h3>
+      <ol class="steps">
+        <li><span class="step-n">1</span><b>Send an inquiry</b><span>Share the product, quantity and target price.</span></li>
+        <li><span class="step-n">2</span><b>Samples and quote</b><span>We develop samples and send you a quote.</span></li>
+        <li><span class="step-n">3</span><b>Production and checks</b><span>Production starts after you approve. We inspect along the way.</span></li>
+        <li><span class="step-n">4</span><b>Shipment</b><span>We arrange documents and ship to your port.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap about-grid">
+      <h2>Based in Dhaka, working with buyers worldwide</h2>
+      <div class="about-copy">
+        <p>BD Fashions &amp; Fibers is a garments and recycled cotton fiber exporter and buying agent. We work with international buyers who want dependable quality and steady supply.</p>
+        <p>Our aim is simple: to be a partner you can trust, and to grow with you over the long term rather than for a single order.</p>
+        <div class="signoff">
+          <b>Md Abdul Hamid</b>
+          <span>CEO, BD Fashions &amp; Fibers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Send us your inquiry</h2>
+        <p>Tell us what you are looking for. You can send it by email or on WhatsApp.</p>
+      </div>
+
+      <div class="contact-grid">
+        <dl class="contact-list">
+          <div>
+            <dt>WhatsApp and phone</dt>
+            <dd><a href="https://wa.me/8801925500130" target="_blank" rel="noopener">+880 1925500130</a></dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:bdfashions.hamid@gmail.com">bdfashions.hamid@gmail.com</a></dd>
+          </div>
+          <div>
+            <dt>Liaison office</dt>
+            <dd>House#11, Road#10, Sector#6,<br>Uttara, Dhaka, Bangladesh</dd>
+          </div>
+          <div>
+            <dt>Registered address</dt>
+            <dd>Village- Algarchar, Pahartoli,<br>P.O: Zadur Char, P.S: Rowmari,<br>Dist: Kurigram -5640, Bangladesh.</dd>
+          </div>
+          <div>
+            <dt>Contact person</dt>
+            <dd>Md Abdul Hamid, CEO</dd>
+          </div>
+        </dl>
+
+        <form id="inquiry" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Your name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-company">Company</label>
+              <input id="f-company" name="company" type="text" autocomplete="organization">
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-email">Your email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="f-interest">You are interested in</label>
+              <select id="f-interest" name="interest">
+                <option>T-shirts</option>
+                <option>Polo shirts</option>
+                <option>Shirts</option>
+                <option>Jeans</option>
+                <option>Jackets</option>
+                <option>Fabric &amp; more</option>
+                <option>Recycled cotton fiber</option>
+                <option>Buying agent services</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-message">Your requirements</label>
+            <textarea id="f-message" name="message" required placeholder="Product details, quantity, target price, destination"></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="btn btn-primary" data-send="email">Send by email</button>
+            <button type="button" class="btn btn-outline" data-send="whatsapp">Send on WhatsApp</button>
+          </div>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="logo-tile foot-logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCADoAMkDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5jU1IrVWVqlVua/qdM/nxxJwc19F/sj/st3Xxy19dX1lJbXwTp8oFzMMq17IOfIjPp03MOgOByeOX/Zl/Zy1b9oLxd5CeZZeGrF1bU9SUfdB5EUeeDIw6eg5Pof1n8J+FdK8D+HLDQ9Gs49P0qxiEMFtEOEUfzJOSSeSSSetfC8ScQfUIPC4Z/vHu/wCVf59vv7H1mR5M8XL29dfu1+L/AMu/3F3TNMttJsLays4I7Wzt41igghUKkaKMKqgdABxVkigTx/3v0oM0X96vxVtt3Z+pKKWghWkxxSieP+9SedGT1xSuLlE209Is9RxSedHn71OFxH/eouxqC3Y4jFG31pv2iM/xUG4jP8XFTqaWQu2jbTfPj/vUC4j/AL1PUVkLs9qNtJ9oj/vfpQLiP+9RdhZBszRso8+PP3qPPj/vU7sVhpSmMh71MHV+jUpSncVisU9aYyVaZM1GyYqkyGiqU5pu2rJTHamFM1dyLFfb69KOKkZabtp3FY/CBW5Fej/Ar4I6/wDHjxxb6BoyGC3XEl/qTqTFZw55dvVj0Ve5/E1zfw2+Hmt/FXxjp/hrw7aNd6lePgZ+5Eg+9I5/hRRyTX7BfAT4IaL8BvAdr4f0jE9w2Jb/AFB1xJdz45c+ijoq9h7kk/tue53HLKXJT1qS2Xbzf6dz8uynK3jqnPPSC38/Jf1ob/wu+Geg/CbwZp3hnw/afZtPtF++3Mk0h+/LIf4nY8k/QDAAFcf+1h4k1Pwn+zx8Q9X0i/n0zU7PSZZbe7tXKSROMYZWHQ164prw39tbj9lr4ndv+JNL/Na/GKU5VsVGdR3bkr366n6jyxp0XGCsktD8l5v2r/jCHP8AxczxP/4MXoH7WXxh/wCimeJ//Bi9eRTud9M8zFfqEcPQaXuL7kfDyq1b/Ez2H/hrL4xdf+FmeJv/AAYPTh+1n8Yj/wA1M8Tf+DBq8dEmaeslV9XofyL7kQ61b+Z/eewj9rH4w/8ARTPE3/gwel/4at+MB5/4WX4n/wDBi9eQB81IrGrWGofyL7kQ61b+Z/eeuj9q34wf9FL8Tf8AgxelP7Vnxfbr8S/E/wD4MXryMPTw1V9WofyL7kQ69X+Z/eern9qb4vH/AJqX4o/8Gcn+NKP2qPi+P+aleJ//AAZSf415Nvpd1P6tQ/kX3IXtq38z+89aH7VfxfA/5KX4n/8ABi9OH7Vnxfx/yUvxN/4MXryPdSb6Pq1D+Rfche2rfzP7z1w/tU/F5uvxK8TfhqUn+NOi/ar+L0bZHxK8S5/2tQc/zryIPUg56VSw1B/YX3Il16387+8+gtE/bx+OPh9lMXju4vUH/LO/tLecH6lo8/rXs/w7/wCCq/i/TJ4YvGXhfTdfthw1xpjtZz49dpLIT7fLXxj4f8Gat4mbdaQbbcHDXMvyxj8e59hXoOlfB7TbdQ19cz3kndYz5Sfpz+tddLhqOYK8aCS77fitThq8RLL3adZt9t/+Avmfqt8FP20vhf8AHGeGx0rW/wCytdl4XRtZUW1wx9IzkpJ9EYn2r3Xrx3r8Tk+HPhyHGNMUkHIJlfIPrnNfUvwA/a51z4atbaL4nnu/EXhhcRpJPIZry0X/AGZGO6RR/dck+h7V42ZeH+MowdbByUrfZvr8nZfc/vPRwHG2CryVPEJxv1srfPVn6EsvB7VHtqp4c8R6Z4t0az1bSbyK/wBPu0EkM8RyrD+h9QeRWiUr8qlGVOThNWa6H6LFxnFSg7plVlH403aPQ1YZPwpuz3ouKx4l+y5+zVpf7Pfg8RsI77xTqCK+p6mB1PUQx+kan/vo8nsB7cp5xTAwApQ3PFdGJr1cVVlWrO8mc1GlChBU6askTKa8M/bZI/4ZZ+J5P/QGk/8AQlr3FGzXhn7bn/Jq3xQ/7A0n/oS1OG0rw9V+Z0S1py9D8N7iT5zUXmGkuD85qPccV+qxfuo+JcdSZZOaljcniqobmvrP/gnR8IPCPxj+Luv6X4x0K317TbbRWuY7e4ZwEl80AMNrA5xkVhiMQsPTdSWyNKVB1pqC6ny6CfQ1IucdDiv22i/YM+AmwH/hW2mZP/Taf/45Uo/YR+Aw6fDbTP8Av7P/APHK8JcQ0P5X9y/zPR/sep/Mj8RuQOhNLk+hr9uD+wj8B8f8k20v/v5P/wDHKT/hg/4Ct1+G+mfhNOP/AGpVf6xUP5X+H+ZP9jVP5kfiQd3YGjJx0NftuP2DvgKvT4b6Z+M05/8AalO/4YS+A3/RN9L/AO/k/wD8co/1iofyv8P8w/sWp/Mj8RstjoaOfQ1+3B/YR+A3/RN9L/7+z/8Axym/8MHfAVjz8NtN/Cacf+1KP9YqH8r/AA/zD+xan8yPxJwT0FejfDz4bPqiR6pqsbJY9YYG4M/ufRf5/Sv1yT9g74CxOrr8N9N3A5G6e4I/IyVv3/7Knwsv4TGfCNtFkYDQTzRkfTD16eA4my2lVU8VTm0uiS/H3jyswyHMKtH2eEnFN7tt/hZP7z8z4tkcSRoixxoNqogwFHoB2pWAr6/+LP7C62Wnz6l4DvZp5owXOj37hmcekUuBz6K3X+9XyBeRy2lxLbzxvDPE5jkikUqyMDgqQehB7V+3ZTnOCzik6mDne262a9V/S8z8VzLJ8ZlVTkxUbX2e6fo/6ZC561CWyfSlZs9+KQ819EtTyUrH0J+yN8dp/hz4wi8O6nc48MavKIyZDxaXB4WQegY/Kw+hr9EFfcCO461+NignjJGe47V+on7N/j2T4gfB3w7qdw2+9ji+x3LY6yRfKT+Iwa/B/ELJoUZwzKircz5ZettH80mn6I/aeCM1lVjLL6rvyq8fTqv1XzPTiKbt9qlxmk2e9fiyZ+qtGeHp6mq4NPViDXS0cly0nWvD/wBtz/k1b4n/APYGk/8AQlr22JskV4h+28cfsqfFA/8AUGk/9CWrw+leHqvzL+xL0PwwuD+8qPJFOuDl6iziv1CL91HyLWo8Mcivuf8A4JLtn45eKx/1L3/tevhbPIr7n/4JL5/4Xr4p/wCxeP8A6OFeXmb/ANmn6Hbgl++ifrPET5a0/r3psYJiWlxivzY+tA5ox70AepqO4uEtYnlkZUiRS7u5wFUDJJPoBTSbdkK6WrJc8e9NJPavkPxX+3mlh4iv7bRfDcGpaXDKY4Lya8aMzqON+0IcAnOOemD3rK/4b61MjjwfZf8AgdJ/8RX28OC87qQU1R3/AL0fyvofGz4wyanNwdbVf3Zf5H2kKcOK+Jj+37qytz4Ps8e18/8A8RXpXwM/aT8UfGrxO1na+ELWy0m1Aa+1E3jsIgc4VRsGXbHAz2JPSscVwjm2CoyxGIpqMIq7fNH/AD/4c3wvFGV4yrGhQm3KWiXLL/I+jWNICMUKC454p23ivjT6wa6eYuD0r4T/AG7fhpa6D4m0vxfp8KwprBa3vVUYBnQAq/1ZTz6lSe9fdrAgV80/t3xxN8FLZ2x5iazb7CevKS5x+FfbcHYuphc5o8j0m+V+af8Ak7P5HyfFGGhicrq861iuZeq/4F18z8/ycnFIeKTdzQTmv6uWx/Nj3HIxyK+8P2A9Se7+HviCyZspa6mGUem+PJ/UV8HIPmFfdn/BP6yeDwJ4lu2GEuNSRFPrsjwf51+d8eKP9i1L73jb7/8AK59xwbf+1qdtrSv9x9VgYpaXHHNJX8vn9DGGG709XxVYMfWpUIr0Gjy+YuxHpXiP7b4z+yj8Uf8AsDSH/wAeWvbIMswA614r+26Nn7KXxSH/AFBJf5ilR0rw9V+ZvHWL9D8LJ/vmo6fOfnNR5xX6ZH4UfKy3HDrX3R/wSWH/ABfPxX/2Lx/9HCvhYHmvur/gkqc/HHxZgE/8U92/67CvLzP/AHafoduC/jI/WeJv3S07rUCybIxng09J1bvmvzg+qHM20Z9K+S/20fjmdKsm8BaHcYvLpA+qyxnmKI9Ic9i3U+g+te0fHr4y2Xwc8FTamxWbVrjMGnWhP+tlx94/7K9T+XevzN1bV7vXdTu9Rv7h7q9upWmmnkOWd2OST/n0r9a4H4e+uVv7RxEfcg/dT6y7+kfz9GfmHGWe/VKLwGHfvyXveS7er/L1RT3Hk0LNg8ml4apLHS7rWNRtrGwt5Lu8uZFihgiXc8jscBQO5r+gm1FNvZH4VGLm7LqdR8OPAGq/FPxXaaBo0W+4nOZJWH7uCMfekc9gB+ZwBya/S/4YfDLSPhZ4StNB0ZP3EQ3SzsPnuJT96Rvc/oAB2rjP2bvgbb/BfwiEuNk3iK/CyahcKMhT2hQ/3V/U5PpXsIkA6DFfzTxfxJLN6/1bDv8Acwen959/Tt9/U/obhXh+OV0PrFdfvpf+Srt69/uF5FKG55o3A1BdXEVnC000ixRKMs7sFUD3Jr86Sb0R982lqyZpABz0r4j/AG+vH1veanoHg+1mEklmW1C9VTwjOoESn325b6MK9Q+Nn7YXhzwNY3Fl4YubfxJ4gYFUEDb7W2P96Rxw2P7qk+5FfAOta3qHiPWL3VdUunvNQvJWmnnlOWdieT/9btX7PwRwziY4lZni4OMY35U9G21a9uyW3d2sflHF3EGHlQeAwsuaUvia2SWtr93+BTI7im4OeaUvQCCa/fUfjAKQpyeg5Nfpx+yz4Jm8FfBPw9bXKGO7u1bUJkYYKtKdwH/fOK+H/wBm74OzfFz4i2ltNG39h2DLdajLjjYDlY8+rkY+ma/Tq3hS3jVIwFjUBVVeAoHAA/Cvw7xFzWDVPLabu0+aXl0ivxb+4/X+BctknPHTWnwr82/yX3k+fakzSZox7mvws/YDmQ5PSpYySRj7x7VVWTtW5ptj5SiWQfORwD2r0qjUFdnjU4upKyLFnB5Kjdy56+1eGftxf8mqfFP/ALAsv81r3ocmvBf24eP2VPil/wBgSX+a1z4dt14N91+Z6kkowaR+FE5+emZp0336YTX6hH4UfHS3FOBVrS9Yv9GmaWwvrqwlZdrPaTvEzD0JUjI9qqk+tJ34oduolfob58b+I3BY+ItYwBkn+0Zv/iq/U/8AYT+Bd18FPhnd/FH4j6vqEOt39obiK11O6kddMsSMglGYjzpOCe4BVRXy3/wTn/ZWX4z+Oj418S2Zbwb4duFMcUo+TUL4cpH7pHwzep2jsa+oP2zvjU3iXVx4E0q4V9L01w2ozRcCe4HSP/dTv/tfSuPD4KedY6OX0NFvN9o/5v8AXtcMbj4ZPg5Yyrq9oruzxb44fF6/+Mnjm41icPDp8QMOn2hPEEOeM/7TdWPr9K4EE4qTy8daeqA1/Q2Fw1LB0Y0KKtGKskfz3icTUxdaVaq7yk7tkSyYNfW/wa8JaR+zl8PX+KfjWHdr13H5ejaUwxINy/LwejuOSf4Uye/HKfsv/BGx1YXHxE8YeXbeEdG3TRC5HyXEicljnqi/+PHA9a84+PvxnvfjR44l1FxJBpFruh02zY/6uLPLsP774BPpwO1fI4+rLPMU8qoStSj/ABZLr2pp939rstPI+rwFGOT4ZZlWV6kv4cX+M2uy+z3epQ8S/GLxj4o12+1W48RalBNdymUxWt5LHFHnoqKGACgYA+nrWWfiL4r7+J9ZP/cRm/8Aiq5xTmlIr6yGBwsIqMaasvJHy88XiJycpTd35s6IfEXxUOnifWf/AAYzf/FVn6n4m1fW1C6jqt9fL/durl5R+TE1mA4oJFbxw1GD5owSfoZSxFaa5ZSbXqP34HbFRsN9NJBNKgDOoZiik8sBnA9cV03SM0RtGRXb/Cj4NeJ/jBrq2Gg2ZMCMBc38wIt7ZfVm7n0Ucn9a9Z+BvgH4H6xd258TeMZ7vUOCLC/hbTrYn0L5O7/vtc+lfefhnSNI0LRray0W0tLHTUXMMNkirFg9xt4OfXvX5dxHxm8rToYajLnfWUXGPqk7OX4Lzex+j5BwqsxtWr1VyLpFpy+dtF+fkc58IfhNo/we8IwaJpKlyT5l3dyAebdSkcu3p6AdhxXccYpDgHikFfztiMRVxVWVetLmlJ3bfVn7nQoU8NTjSpRtFaJCgZNLQPpRn2rnNjF0fTDtW4mHuin+dbJ5oozirnNzd2Z06apxshea8E/bgG79lX4pD/qCy/zWvehXg/7bpx+yt8Uv+wJN/MVthv48PVfmOfwM/CaYfPURNSz/AH6j4r9Qj8KPjZbiDkV3PwU+D+ufHb4k6N4M8Pxn7bqEn7y5K5S1gXmWd/ZV/MlR3rhwu7OSFA7noK/XT/gnj8CtP+A/wMuviP4phFrrPiS3F280gw9rYDmGId9z53EDkllHYV5+NxDoQ93WT0S7tnTh6anLmlolq/Q9K+IWuaD+yJ8DdH8F+Eokt71Lc2emKSN+f+Wt3J6tkk57sfavhdy9w7ySO0sjkszsclieSSfrX0zrPwO+JH7SPjq58T6tb/8ACL6LMRHZjU8iSK2B+RUhHzZxyS20EnOa92+HH7JHgTwMsU13aHxJqS4JudUAaMH/AGYh8o/HcfevrMuzbK+FMG6dSftMRPWfLrr2b2Vtt73u7HwOY5bmfFGL9pTj7OhHSPNpp3tu7+m1lc+B/D3w88T+Mn26FoGo6sM4L2tszoPq2No/E17V8Nv2K/Ges63YP4ptYdD0XeGuV+1I9wyDnaqpkAnpknivvqK1htoEijjSKKMbVSNQqqPQAdKbLPHboXdlRAMlmOABXg47xCx+IThhacYJ9dW/k9F+B7mD4EwOHaniajm100S+e7t8zkvEnwi8OeKvCll4avLOSLQLQKE061neGJgv3Q20gsB15PXnrXHJ+yR8KY+vhCGT3e6nJ/8ARldzqXxZ8HaOD9t8T6VAQcbftaM35Ak1hT/tGfDmDIPim3bH9yCV/wCSV8Zh6meRhy4Z1VFu/u89rvd6dT6fEzyFT5sVKlzJW95w2Wy16HPXf7H3wovI9q+GTaN/et72dT+rkVxXiL9grwff7m0fWNW0iQ9BKyXMY/AgN/49Xqlv+0Z8OriQKnie2BPeSKVB+ZQV2GieM9D8SEf2VrFjqORnFtcI5/IHNdyzbiLAe9OrVS/vczX/AJNdHHHCcN5i+SkqUn/dcb/+Su58JeOv2H/HXhuOSbRZrLxPAuTst28i4x/uPwfoGJ9q8B1rQdS8OahJYatY3Om30Z+e2u4mjkX6hgDX7Cna3BrlfiD8NfDPxL0g6f4i0uDUIQD5cjDbNCfWOQfMp+h+ua+vyvxExVKShmFNTj3jpL7tn+HqeBmHAuGqJzwM3F9nqvv3X4n5Khc0Bwp9a95+P/7KutfClZ9Z0V5dc8LqSzzbf9ItB/01UdV/2149QvGfn4uTiv3DAZlhczorEYWfNF/h5NdH5H5HjMvxGArOjiYcsl/V13RYe7Cj3rC8Jfty+O/2f/ijJFoN5/avha12wXfh+9cm3nPV2Q9YpMnhl/4ECKn1jUE0jTLu/l4jtomlOe+BwPxOBXyXNJJeXMtzMSZZnaViepJOa+Q4unCph4YRq/M7v0X/AA/4H2nCFBxrzxf8qsvV7/gvxP6EfgF8f/C37RXgO28U+FboyW7HyruzmIFxYzgZaKVR0I7HowwRXpyqOo5FfgV+yt+0hq/7NHxNtfENk0lzotwVt9Y0tW+W7ts8kD/nomSyn6jvX7s+DvF+l+OPDWma/ol3HfaPqVul1aXEZyJI2GQfr2I7EGv50zHAvB1NPhe3+R+4Yauq8fM3CeaM0nOaWvIOsbRSE5oB9KdiRynBFeCftxtj9lT4o/8AYGk/9CWvega8E/bkP/GKXxRz/wBAaT/0Ja6ML/Hh6r8yZ/Az8KJz+8poXmnz/wCsr7I/Ye/YOvPjxJbeMvGqz6X8P45MwW6kxz6wwPIQ9UhzwXHJ5C4+8P0eriKeGp89RnycKUq0+WJ51+yJ+yh4m/aJ8daTcjR5V8CWd/GdX1af93A0aEM8EZP+sdsBSFzgNk4r9xYLOBbaK3+zxi3h2iKMqCqBfu4HbGBVXw14Z0jwhollpGi6dbaTpVlGIbaytIxHFEg6BVHArmvid8Y/DHwm04XGu3u25kUm3sIMPcT/AO6vYf7RwPevia1Wvm2IjTowbfRLV/1+R7v7jLqLqV5JRW7eiO3chAfU15T8Rf2kfBXw3kkt7rUv7S1RMg6fp2JZFPoxztT/AIEQfavlD4sftT+K/iOZrOxlPh3RGyv2SzkPmyL/ANNJeCfouB9a8YVQDX6TlXAcpJVcynb+7H9X+i+8/J858QFBullkL/3pfov1f3H0n4t/bQ8Va55kOgWdt4ftjwJGAuJ/zYbR+Cn614/4h8beIPF0hfWNbvtSJP3bi4ZlH0XOB+ArloXxV2N8getfpOFyjA5eksNRUfO2v3vX8T8dzHOsxzJv61WlJdr6fctPwJoR5Z44+lWxJmrnhrwlrXi69+y6Lpd1qU/dbaMtt/3j0Ue5xXtnhP8AY68U6qiSa1qFnoaNyYlzcSj6hSFH/fRrnxuaYHL/APeaqi+3X7lr+By4LJMyzV/7JRlNd7afe7L8TwpXA71LHetbuHjdkkXkMpwR+NfYuh/sd+DtPCnUbnUtVcdd0whQ/ggz+tdRF+zb8OoQAvhmBx6yTysf1evkK3GuWRdoxlL0St+LT/A+2oeG2c1VzTlCHrJ3/CLX4nyb4V/aK8ceDmRYdXk1C1X/AJddR/fJj0BJ3D8CK+ivhj+1L4f8bSQ2GsKPD+qvhV85828reiyfwk+jY+prqJv2avhzdLtbwzDH/tRTyof0euY139jzwhehm0u71HSJT0zIJ4h9Vb5v/Hq+YxeZ8O5pdVKUqcv5lFL77N3+aPt8vyXi3JLexrRqwX2XJv7uZK3ydu6PcHtI54WjdVdWBDKwyGBHII7jFfn9+1p+znD8M9ZTxL4fg2eGNRlKyW6DiynPO0f7DclfQgj0r6b8GWXjn4LBbDWf+Kr8HJwt3YhnubFfUxn5jGO6jdtHIPG2vSfF/hzS/iV4Mv8ARrpo7jSdUtSqyp8wGRlJFPqDhh9K8zKcxq8NY+NalUVSjLR22a9Okluk9fkz7LG4anxFgnSq03TrR1Slun5PZxe11p6NWPxP+OmrJp/hCOxjbEl9MEI/2F5b9cV88OcHivW/2mobzw/8VNU8MXvy3GhObOVQePMzlj+PFeRE5NfoeeYyOLxblTd4pJJ/j+p42R4OWDwcYzVpPV/P/gWEWQo2c1+m3/BJn4+teWes/CfV7gk2itqui7258sn9/Cv0OHA7AmvzIC5r0X9n/wCJdz8H/jN4P8XwSNGumajE04BwHgY7JVPsVb9K+LxuH+s0ZR/ryPqsPV9nNM/oajYSKCOlOqpYXsN5bxS27rJBIgkjdejKRlT+IIq3mvzU+nIyfSgU2lHNUQPXrXgX7dGf+GUvih/2B3/9DWvfR1rzP9o/4a3/AMWvgr4t8Iaa6Q3ut2osklk+7EGdcufXaMnHfGK2oSUK0JS2TX5kyTcGkflR+wp+x1N+0f4uPiHxBDInw70acLddVOpTjDfZkP8AdAILsOgIUctkfsvp2nWuk2FtZ2lvFaWkEaxQW0KBEjRRhVVRwAAMACub+GXw20D4NeAtF8KeH4Vs9I0m2ESbjy56vK57szEsx9Sa+TP2nv2tm1+S78JeBr0ppgzFfaxA2GuexjhYdI+xcfe6D5eW+mwmBxXEeM9lQVoLq9ku78326/ifP4/MMNkWG9rWfvPZdW+y8u7/AOGPRvj5+2FY+DZbnQPBjQ6nraZjn1A4e3tG6EL2kcf98jvnkV8Xax4h1HxJqc+papeTX9/cNuluLhyzsfc/06CsGF+AKtJJX9A5RkWDyWlyYeN5PeT3f+S8lp89T+es6zrF5zV5q8rRW0Vsv+D5l1JDVhTkdaz0fBr6A+B37LGufEtbbVtZaTQvDjkMsjLi4uV/6ZqegP8Afbj0Brtx+Pw2W0XXxU1GP5+SXVni4LLMVmdZUMLDmb/Dzb6I8q8J+Edb8basmnaFptxqd23JSBMhB/eZuij3JAr6u+Fn7G9np/k3vjW7GoT8MNMs3KwqfR5OGb6Lge5r6E8FfD/Qfh5oiaZoOnRWFqMFyvLyt/edjyx9zVD4ifE3wn8KNGOreLvEGn+HrAnak19ME8xv7qL1c+ygmvw7NuM8Xj5OjgU4Rf8A4E/8vlr5n7hk/AmCwKVbH2qTXT7K/wA/np5HQ6NoWm+HdOjsdMsrews04WG1iEaj8B3rwr41/tx/Cn4GalNpera2+q65BxLpWiRfaZoT6SNkJGf9lmB9q8B/aZ/bxtfH2gab4C+A+o3us+LfEl2LB7+1tJoHgjPGITIqne+cbwPlGTkHFeh/s5/8E7/Afw30W01Lxpp1r438YOBLPLfr51naueSkUTfK+D1dwSTyMV8gsNCnD2+Ok7vaP2n5u+yP0NTb/dYZKy69F5KxzGj/APBW34X39+sF54c8UWFuxx9oEVvNj3KrNu/LNfU/wi+O3gX446PJqHgvxFa62kOBcQLmO4tyegkhcB09iRg44Jq1qPwa8D6zpraff+DfD95ZMu0282lwlMew28fhXxt+0H+xzqH7P9//AMLf+AU9zo+paJm5vvDyO0yNAOZPKBJLR4zuhYkEZK4IAMQhg8S/ZwvCT2u7r59UVKVej70rSXloz9AAAelLXy98L/8AgoX8G/Gvh7Q5tU8W2fhfXr2FDd6ZqCyolvMeGXziuwrnOG3cgjODkD6RsdWtdVtIbuyuYru0nQSRTwOHSRT0ZWHBB9RXm1aFWg+WpFr1OuFSNRXi7l1iB0H5VSNutvEUhRYo8k7VGBknJq0p3dKc6ZXmsbl2W5+Nf/BVXwCvhX9pG11+GMJD4l0iK4kKjAM8JMTk+5Cqfxr41UcV+nf/AAWO0KP+xfhfqoX94l5fWrN/stHGwH5hq/Mhxg4r9EyuTqYWMn6fdofOYxctVpCAU8DfFIn95So/KmE4HJpYj8w+tepLVWOJOzufv3+yR4tbx7+zj8OddkffLcaLBHI3q8YMZz7/ACV7FxXyj/wTNv3vP2P/AAgHJPkTXcI+gmP+NfVO6vy/Ex5K84ro2fW03eCYynLyaaM08ViwHAUO2BwM0dAfX0r5f/bT/aEf4deHl8JaDcGLxLq8JM88bYaztTwWB7O/IX0AY9cV6GW5fWzTFQwtBay+5Lq35I4sdjaWX4eWIq7L8X0S9Tzb9sP9p5tbubvwF4SvP+JbExi1bUYG/wCPhxwYEI/gHRj/ABHjoDn5MjbA4NUY34FWI5AK/qfKsrw+U4WOGw60W76t93/Wi0P5vzXMK+Z4iVes99l0S7L+vMvxP0rR061n1G7htbWGS5uJmEccMSlndjwFAHJJ9Kr+HdFv/E+r2ml6VaTX+oXbiKG3gXLOx7D+ZJ4ABJ4Ffol+zj+zNp/wjsYtW1ZYtR8WzJ884G6OzBHKRZ79i/U9sCvOz3P8NkdHmqe9N/DHq/8AJef3GmT5BiM6rckNILeXRf5vy+84/wDZ+/ZBttBW18QeN7eO91UYkg0hsNDbHqDL2dx/d+6Pc19TogjAAwAOOOlOHAprA9elfzbmea4rNq7r4mV30XRLsl/V+p/Q2WZVhcpoqhho27vq33b/AK8jA+IPjSx+Hvg7W/EuqNt0zSbOW8mweSEXOB7k4H41+d/7P/wO1P8Ab08Zar8W/i1f3UvheO6e00vRIJmjRgpyYlI5SJAQDtwztkk16Z/wUj+MmuRaf4a+CvhONbjXvG8ipdAcsLcyBUiHpvfqeyqcV9Efsw/Az/hQHwl0vwa+qyaxcW0klzPcugRRLIQXSMDnYGzjOT/IbUn9TwntU7VJvTuo9Wu12bTXt63I1eMd/Uh8Dfsk/Cr4b+NNN8UeGPB9lomr6fby20EtqWxtkGGZgxOXxwGPOCfWvZEQIMAY9qUsKbvya8adSdV3m235nfGMYq0VYc2BUbkEH5QcjBzS8sTS7DWZR8waj/wTz+CGoaHqVjceFB9qvbie5/tSKd47qFpJGcCNgdoVN21VKkYAyDXz7+zrqPij9jX9rGL4Fa3q8useBvEqefok03Ajdw5ikVf4CzRyRuo4LAMOvP6PvArpjvXwp/wUM+Dfiqx1LS/j54V1phqfgkWyjT2t1K28KSs3nA5y+Hk+dSPuE+le9gsRLESlh8RO6kmlfpLpbtqefXpqmlUprVdu3U+6oUKj5uDUj8LXn3wF+LNr8cfhL4Y8cWarDHqtoHmtwc+TOpKyx/8AAXVh+ArvbglULV4k4ShJwlujuTUkmj88P+Cx99HH4F+GtsSPMl1a6cD2WFM/+hCvy1dsmvvj/gr741XVPid4E8MRSh/7L0ya/mQH7jzybVz77Ywfxr4DU9zX32VLlwsV6/iz57GO9VjjmnRj5h9aQYPSnkFYpWxyqkj8q9aW1zhjq7H7Z/8ABNLTGsP2PfBrMP8Aj5e6uB9Gmb/Cvqf8K8f/AGSvCUngP9nH4c6DKnlTW2iwPIh6h5AZDn3+evYa/McTLnrzku7PraatBEK/WnqPSmL1p5bYpbtWDBHPfEDxtpvw88H6t4k1WURWOmwNNIO7n+FB/tMcKPcivyK8e+OtR+IvjHVfEmrSGS/1CcyuM5CL0VF/2VUBR7Cvq3/gov8AFdvP0P4f2EpCgDVNSCnqeVgQ/k749lr4nSXPNfvnBGVLCYP67Ne/U28orb73r6WPx7i3HvE4j6rB+7D8Zf8AA2+80Ekx3rX8O6NqHifWLPStLtJb7UbyQQwW0K5aRj0A/qTwACTwKxbKGS7njhhjeaWVgiRxqWZ2JwAAOSSeMV+lf7Jf7NUPwi0FNd1uBJPGF/H84OD9giPPlKf7x43EfQcDJ+oz3PKOS4Z1J6zfwru/8l1+7dnzGUZNUzbEezjpFbvsv830Nv8AZr/ZvsfgroovL9Yr3xddx/6VeAblgU/8sYvQerdWPtgD3ED8KQADjtQa/mfG42vmFeWIxEryf9WXZLoj9/weDo4GjGhQjaK/q78xxAFQzMSOKk7+tEikr8vB964TsPz1+LQQf8FWPhn/AGmP9GfSojaeZ90yCOTGPfdmv0EhbheQCw6etfnD/wAFI/APxT0v4jeGfijommwanovhsia01bS7dxdaeQ4fy7oBjuiyDiQKMBiGx36PUf2+fCXiTxL8EfHkOqR2Nm1zdaP4q0V5cTac08QCzlP4olcZEgyMHGQeK+hrYaeJo0alPW0bO3Rq7/E8+FWNKc4y01/M/QDaTSjGcd6hs7uG4hjaKVJkdQ6yI2VZSMgg9wRyDXm/7SHxetfgb8HPFHjWdlaXT7UraQk/625f5IU/FyK8GEJVJKEd2d8pKK5mYXwM+McPxF+Lfxm0BL77SnhrWLe1giL5Cxm3UPtHp5qyA+4r2vORX4k/sM/tBz/C39pfTb/Wb1m0/wAVSNpmr3MrcGSZ9yTsfabBJ9C1ftbHKVjweo616OYYZYeqlHay/BWZy4Wt7aF3uWdxUZ7V538f3tG+BnxEW9CfY28Pah5u/wC7j7NJXP8A7Vnxx0r4F/A7xL4iu7hRqEttJZaXahsPcXciFY1Ue33z6Kpr4y/a4/a9h1D4HeG/gh4SeXxN451nSbCy164sMzeQxjjL2ybc+ZPIw2sFztBIPJwFhMHVrSjKK0v+W7+RVatCCcW9bHrX/BKG9up/2WGjnZjHHrt2sOey4QnH/Ai1fZN1qUFlaTzXkqW9tDG0ks0jAKiKCWYk9AACfwr50/YX+BHi/wCBvwdtNO8ZajHFfTLvg0C1VfK05GZnbzHH+tnZnJdskABVXhcnx/8A4Kf/ALUMfw98Bn4XaBegeJ/EcWdSkhf5rLTz1Bx0aXG0D+6GPRhWlan9bxso03e73/UUJeyopyPzw/ag+LP/AAvL47eMPGMbMdPvLsw6eH6raRDy4vplVz+NeUYwMYp3mcBR0HApRzX31OnCEFGPQ+cnNyk2xgYivQ/gR8PZ/iv8YfB3hOBC/wDampwxS4GdsIYPIx9gqn868+eMt0r9Df8Agkn8E5NR8S+IPifqMLC10+NtI0tmHDTPgzuPXauF+prlxlf6tSlLy/4Y1oU/azSP1HsrOGzhijt1CQRoEjVegUDAH5AVZyKbAoRAoqXbX5ofUkCjikeZIgS5AUAsSfQUqn3rhfjz4jbwh8GvGutRSeVPaaRcPEw6h9hC4/EiuijSderGkt5NL79DnqVFShKb6Jv7j8pPjZ49f4j/ABY8U+ImkMkV7fSfZye0KHZEB/wFQfxrjYnzVAucKuegAr6B/Y+/Z+f42+PBc6rEw8J6Oyy37ngXD9Utwf8AaxlvRQe5Ff1HVxWHyrB889IQVvu0S9eh+CRw9bMMTyQ1lN/nqz3r9hv9msRRWnxI8TW2JnG/RLKZfur0+0sD3P8AB7fN3XH26uR9e5pttDHawIiokcUahURFCqqgYAA7Cua+IPxQ8LfC3RjqninW7XRrU8R+c2ZJT6Igyzn2ANfzhmeYYnO8Y60023oktbLol/W+p+2YDBUMpwypxdktW3pd92dTikLovU4r4c+I3/BSW3ikkt/BHho3QBIXUNacxqfcQoc4+rD6V4L4i/bT+Lnid23eKW0uJjkRaZbRwhfYNtLf+PV6eG4XzCuuaaUF5vX7lf8AGx5GK4nwGHdotzfkv1dvwP1d81OzCk88Z61+P/8Awv8A+JM77n8eeISTzxqMo/QGt/Qf2l/iho0okg8catIR/DdSi4X8pA1ei+DsTbSpG/zPHfGuFi/epSt8v+Afq7OnmqQFzkYweh/CvyB/4KM/spSfCHx83jjw5poj8FeIJf30dugEen3p+9GQPupJ95e2cjuK+g/A/wC3z4y0qWNPEWm6f4gth954lNrPj2K5X/x2vpPwj8Zvhv8AtK+G7zw3exQy/wBowmG68Pa0ihplPULzh/UFTkYzxXnf2bmGTT9rUhzQ621VvzXq0evQz3Lc2SpU6nLN7KWj/wAn6Jn5ufsx/wDBRnxV8BNAtvCviLTT4z8L2w2WitceVe2Sf3EkIIdB2VsEdAwHFbn7cf7afhb9pL4b+D9D8J/2naLFqD32qWWoW/lMhWMrENysVcbmJ4J6DOK9Q+MH/BJ7w6t7NqPhP4iDwvp0smI7HxDEJ442PRFn3qx9gwY+5rxrx9/wS8+JPgzwffa9oev6J41Nkhmk0/TBIlw8YBLGPdlXIHO3IJ7ZPFbU6mX1K0a60fzWv5HfOOKjTdPdHyEYdoLRkrIPmQg4II5Ffpx4g/4KpeF/C3grRbXRdC1Lxf4mXTLcXlxcEWdot15K+bljl3w+7OFAPY96/O/4X/DXxN8YPGVl4X8JaZJqus3WWWIMEWNB96SRzwiDuT9OvFfY+hf8EoPFTrHJ4l+IvhzRI8BpVtopbho/UZcxg13476hNx9vLbp/w2pxYb61FP2aPkz47ftB+Of2jPF6a14svfP8AKJjsNLslK21mrH7kUeSSScZY5ZsDngAfpn/wTz/Y8h+Cfg+Hxr4v0iNPH+rJ5kUVygMmk2zD5YwD9yVhy56jIXjBz2P7PX7AHww+B9/Z+INs/jPxNFiW11LVAhhhPUSQxL8qnuGJYjqCK8g/bP8A+Cjtn4IS98GfCi7t9V8R/NDe+IkxLbaeehSHtLL/ALXKL/tHIHiVcRLF/wCy4Ne716af5fmerCmqH72u9T2/9rL9tXwr+zVpL6bFLFrfji6i3WmjRtu+zgjia4I+4ncL95+3GSPx3+IHieP4l+I9T8Q6vqNxca3qMzT3N3c8tI59ewA6ADAAAArjdV1i/wBb1O71HUry41DULuUzXF3dymWaZyclnc8sT6mq4m4617+XYengqbi4pt7t/wBaHj4uc8TNSUmktrf1qFxpstuSVZZ4x/HEc/p2quHx1qx1ORwfWlhsbi/uooIIZbm4mdY4ookLvI5OFVQOSSSAAOtdspKOqJhd6M6T4ZfDzW/i3430fwl4ctjc6zqs4ghXHyxj+KR/REGWJ9vev3z+CHwh0n4IfDDQPBOjR/6JpNsI2nIG64mPMkre7Nk/TFfOn/BPf9jOX4A+GJfFfi21QePdbgCGE4Y6XbHkQA/89G4Lkey9q+zVXamM5x3r4fNMd9ZmqcX7q/M+iwlD2UeZ7sap207zPao2PrTd1eHY7HIRW54rw/8AbbuXtv2Y/GjIcF4oIzj0aZAf517aG5rxj9s+2N7+zH43VRkxW8cx+iSox/lXs5T/AMjHD3/nj/6Ujz8drhK1v5X+R+Uvhfw7qHi/xJp2h6VbtdalqNwttbwr/E7HAz6DuT2ANfsV8FPhbpvwX+HGleFrDbL9nTzLq6Awbi4bmSQ/U8D0UKO1fJX/AATs+DcMz6j8SNTgG4M+n6OHHfGJpR+ewH3es/8Abp/bCuLKW++G3gTUGhmUmHW9ZtmwU7G2hYdD/fYdPujnOP0DiOvWzfHLK8M/dhrJ9L/8Db1ufH5LRpZbhXj6/wAUtEutv+D+R2/7UP7fenfDq5u/DHw+a21zxLETFc6m/wC8s7BuhUAcSyD0+6p65OVr8/fEfj3XvHetzax4i1W61nVJj89zdyF2x6L2VfRQAB6VxtvEVwOMegrShYLgZA/GveyzLMPltO1Ne91fV/8AA8j5/M8fXx0vfenRdDVilL1dhArLgcf3h+dadvzjGPzr3OZHylWDL8KEY71oW6EkVUtEz1x+dasChcdPzrRSR4ta6LNvEBgmtS2ne3dHjcxuhDKynBBHQgjoazVbGOn51Krk/wD660vE8qcZN3PsD4F/H/TvihpjfDP4owWuuWWpp9lgu9SQSJcZ6QzA9W/uydc9eeawPg3+zNf/ALJ37YcEOi3V3f8Aw68X6TfW1k8jMxtZo1877NL2LBUYo55ZQQeQSfmi2jJkVg5RgchlbBBHQiv0c/Zl+Kr/ABV+H0J1KRZtc0ci2uy3Jl+U+XN9WGQT6g+tfmXEWWrBRlisMvclpKPRN7Nf1+Z+x8JZ5LGNYDFyvOOsW92lun6dPL0Pg3/gmLZiP9rnx4igAJpl+B7Aaglej/Bv9imLxf8AGf4h/Fr4sKW8Lw+I9SudK0bUXKwzxpcSf6Vc7jjyVC/Kh4bGT8oAbgf+CbU6Q/tkfEq2DLvFlqaDByRjUBWt/wAFNf2rv7Uupvg94X1LFhasG8R3cEmPtEvVbMH+6vDP6navZhXz1aNSpi3So6XSu+y6n6HTcYUuefRs439s/wD4KJXvxNa98C/DO5k0nwNEDbXOqwZin1VRwVjxgx2/YAYLjrhTg/DzThgAOAOg9KgkEec+an/fQqBpo1OBIh/4EK9yhRhhIckEeZVlKvLmZZfmoSSua7DwP8JfG/xIukt/C3hHW9flbp9hsZHQfV8bQPcmvr74Nf8ABKH4geLpre88f6la+CNMJDPZW7Ld37j0AU+XH9SzY/u1FbFUaSvOVh06FSbskfF3gjwZ4g+IniSy8P8AhrSLvW9ZvG2wWVnGXdvU+gUdSxIAHJIr9cf2Kv8AgnzYfAl7Xxj41NtrPj7but4U/eWuk5HPlk/flxwZOg6L6n6A+BP7NPw//Z10JrDwZoiWc8ygXepXJ828uiP+ekp5x/sjCjsBXqRYAYFfKYvM5104U9Ins0cJCm+aW4Ioj6UjPTWbmmFq8VI7XIVmGKZupC1N3+9XYi4m7Jrlvin4Qb4hfDbxP4ZWRIn1bT5rNJJPuozqQGP0PNdQ4KNj0ppbIropVJUpxqQ3TTXqjCpFTi4S2ehzngXwZZfD/wAH6N4e0xAljplrHbR4HXaPmY+7NuY+5Nav9l6dznT7QknJJt05P5VcLVE47iic51JOcnq9WEVGEVFLRFU6Tpx6abZf+A0f+FRnRNNP/MNsv/AaP/CrO7NITmpu+4NLsVl0jTl6abZD6W0f+FPGmWK9LG0H0t0/wqXNIXp3b6hZdhn9n2P/AD42v/gOn+FOFhZdrK1/78J/hRvpQ+D1p69xWj2FFhZY/wCPK2/78J/hS/YbL/nzth/2wT/CjzM0ok460te4Wj2D7BYnrY2p/wC2Cf4VJBa29szNBbwwFuGMUapn64FMEmR1p6vnvSdykorVIy9E8BeGvDuqT6lpXh/StM1C4DCa7s7GKGWQM25tzqoJyeTk8nmrkvg7w/cu7zaFpkzuSzNJZRMWJ6kkrzV1ZKeJOOtS2273NFZbGO3w58JSfe8L6I3106E/+y0tt8NfCVpMs0HhfRIZQch49OhVh+IWtsSU9ZPSpbl3Kuuw9beKNQqLsQDAVeAB9KeWA6YqIvxSeZWfKVzEpamF6jL46mmlx61SiS2SF6YXqNicU3d3qrE3Hs1Lk1EzelJn3qrE3NCaISLzwR0NUHRo2IYYooqKb1saVUrXGbvSkJ96KK3OYjdc9OtQkkdaKKLAN3c0bqKKYrjd9J5nrRRVWFccHpd9FFSwuKHxThJRRQ0UmSK/vT1eiipsWSB896cJCOhooqBpjvMNHmUUUDuNL5oLEUUU0hNiFulIWoopiuJkfSjA9aKKYH//2Q==" alt="BD Fashions &amp; Fibers logo" width="201" height="232">
+        <b>BD Fashions &amp; Fibers</b>
+        <p>Quality Fashions, Better Tomorrow</p>
+        <p>Global Quality | Trusted Partner | Long-Term Growth</p>
+      </div>
+      <div>
+        <b>Contact</b>
+        <p><a href="https://wa.me/8801925500130" target="_blank" rel="noopener">+880 1925500130</a></p>
+        <p><a href="mailto:bdfashions.hamid@gmail.com">bdfashions.hamid@gmail.com</a></p>
+      </div>
+      <div>
+        <b>Liaison office</b>
+        <p>House#11, Road#10, Sector#6,<br>Uttara, Dhaka, Bangladesh</p>
+        <b style="margin-top:1.25rem">Registered address</b>
+        <p>Village- Algarchar, Pahartoli,<br>P.O: Zadur Char, P.S: Rowmari,<br>Dist: Kurigram -5640, Bangladesh.</p>
+      </div>
+    </div>
+    <p class="foot-note">&copy; 2026 BD Fashions &amp; Fibers. Garments and recycled cotton fiber exporters and buying agent.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var EMAIL = 'bdfashions.hamid@gmail.com';
+  var WHATSAPP = '8801925500130';
+  var form = document.getElementById('inquiry');
+  var status = document.getElementById('status');
+
+  // Product links pre-select the matching option in the form
+  document.querySelectorAll('[data-interest]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      var sel = form.elements['interest'];
+      var wanted = a.getAttribute('data-interest');
+      for (var i = 0; i < sel.options.length; i++) {
+        if (sel.options[i].text === wanted) { sel.selectedIndex = i; break; }
+      }
+    });
+  });
+
+  function buildMessage() {
+    var f = form.elements;
+    var lines = [
+      'Hello BD Fashions & Fibers,',
+      '',
+      'Name: ' + f['name'].value.trim(),
+      'Company: ' + (f['company'].value.trim() || '-'),
+      'Email: ' + (f['email'].value.trim() || '-'),
+      'Interested in: ' + f['interest'].value,
+      '',
+      f['message'].value.trim()
+    ];
+    return lines.join('\n');
+  }
+
+  function send(channel) {
+    if (!form.elements['name'].value.trim() || !form.elements['message'].value.trim()) {
+      status.textContent = 'Please add your name and your requirements before sending.';
+      (form.elements['name'].value.trim() ? form.elements['message'] : form.elements['name']).focus();
+      return;
+    }
+    var text = buildMessage();
+    var url, opened;
+    if (channel === 'whatsapp') {
+      url = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(text);
+    } else {
+      url = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('Inquiry: ' + form.elements['interest'].value) + '&body=' + encodeURIComponent(text);
+    }
+    try { opened = window.open(url, '_blank'); } catch (e) { opened = null; }
+    if (channel === 'whatsapp') {
+      status.textContent = opened ? 'WhatsApp is opening with your message ready to send.' : 'Could not open WhatsApp. Message us directly at +880 1925500130.';
+    } else {
+      status.textContent = opened ? 'Your email app is opening with your message ready to send.' : 'Could not open your email app. Write to us directly at ' + EMAIL + '.';
+    }
+  }
+
+  document.querySelectorAll('[data-send]').forEach(function (btn) {
+    btn.addEventListener('click', function () { send(btn.getAttribute('data-send')); });
+  });
+})();
+</script>
+</body>
+</html>
